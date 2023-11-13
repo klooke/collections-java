@@ -26,7 +26,7 @@ public class OrdenacaoPessoas {
     public List<Pessoa> ordernarPorAltura() {
         List<Pessoa> pessoaPorAltura = pessoas;
 
-        Collections.sort(pessoaPorAltura, new PessoaComprator());
+        Collections.sort(pessoaPorAltura, new CompararPessoaPorAltura());
 
         return pessoaPorAltura;
     }
