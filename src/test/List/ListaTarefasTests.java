@@ -49,7 +49,7 @@ public class ListaTarefasTests {
         lista.adicionarTarefa(descricao1);
         lista.adicionarTarefa(descricao2);
 
-        assertEquals(lista.obterDescricoesTarefas().get(0), descricao1);
-        assertEquals(lista.obterDescricoesTarefas().get(1), descricao2);
+        assertEquals(descricao1, lista.obterDescricoesTarefas().get(0));
+        assertEquals(descricao2, lista.obterDescricoesTarefas().get(1));
     }
 }
