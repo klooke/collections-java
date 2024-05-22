@@ -1,7 +1,7 @@
 # MAP
 
 <p align="center">
-<img src="../../res/map-interface-hierarchy.png" alt="Map interface hierarchy Java"><br>
+<img src="../../../res/map-interface-hierarchy.png" alt="Map interface hierarchy Java"><br>
 <a href="https://data-flair.training/blogs/collection-framework-in-java/">Hierarchy of Collection Framework in Java </a>
 </p>
 
